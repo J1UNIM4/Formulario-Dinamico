@@ -1,0 +1,86 @@
+*{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 100;
+}
+body{
+    background-color:rgb(10, 35, 87) ;
+}
+.b{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    align-items: self-start;
+}
+.b li{
+    position: relative;
+    display: flex;
+    left: -32px;
+}
+.b i{
+    padding-right: 5px;
+}
+.negrita{
+    font-family: 'Dela Gothic One', cursive;
+    font-weight: 100;
+}
+h5{
+    font-style: italic;
+}
+h4{
+    font-weight: bold;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 250px 500px;
+    grid-template-rows: 160px 600px;
+    grid-template-areas:
+    "area1 area1 "
+    "area2 area3 "
+    "area2 area3 "
+    "area2 area3 "
+    "area2 area3 "
+    ;
+    justify-content: center;
+    margin-top: 100px ;
+}
+.grid-area1{
+    outline: 3px solid #000;
+    background-color: rgb(85, 185, 239);
+    grid-area: area1;
+    padding: 10px;
+    justify-content: space-around;
+    outline-style: outset;
+    display: flex;    
+}
+img{
+    border-radius: 50%;    
+    height: 140px;
+}
+.grid-area2{
+    outline: 3px solid #000;
+    background-color:rgb(71, 145, 214);
+    grid-area: area2;
+    padding: 0px 10px;
+    outline-style: outset;
+}
+.grid-area3{
+    outline: 3px solid #000;
+    background-color:rgb(90, 211, 233);
+    grid-area: area3;
+    padding: 3px 10px;
+    outline-style: outset;
+}
+
+.puesto{
+    color: antiquewhite;
+}
+h2 u{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.titulo-nombre{
+    font-weight: bold;
+}
+.blanquito{
+    color: aliceblue;
+}
